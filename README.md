@@ -9,6 +9,7 @@ Projeto criado na Next Level Week #2.
   [![alt Javascript](https://img.shields.io/badge/Javascript-used-yellow?style=flat-square&logo=appveyor)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) [![alt NodeJS](https://img.shields.io/badge/NodeJS-used-3CB371?style=flat-square&logo=appveyor)](https://nodejs.org/en/) [![alt SQL](https://img.shields.io/badge/SQLite-used-4E94D9?style=flat-square&logo=appveyor)](https://www.sqlite.org/docs.html)
 
 </div>
+
 ---
 
 # 💻 Desafio
