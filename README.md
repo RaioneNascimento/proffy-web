@@ -180,9 +180,11 @@ Agradeço a Rocketseat por nos mostrar que não há limite para a imaginação, 
       </td>
     </tr>
   </table>
-
+  
 </div>
 
 **Instructors: [Diego Fernandes](https://github.com/diego3g) | [Mayk Brito](https://github.com/maykbrito)** 
 
 `made with 💜 by raionedeveloper © 2020`
+
+
