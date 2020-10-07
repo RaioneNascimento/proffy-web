@@ -1,7 +1,7 @@
 ## proffy
 
 <div align="center">
-	<img src="../assets/img/logo.png" alt="Proffy Banner">
+	<img src="assets/img/logo.png" alt="Proffy Banner">
 </div>
 
 <div align="center">
@@ -44,7 +44,7 @@ Proffy é um projeto desenvolvido na semana **Next Level Week 2.0** da **[Rocket
 </h3>
 
 <h1 align=center>
-  <img src="../assets/img/TelaWeb-Mobile.png" alt="Tela Web-Mobile"/>
+  <img src="assets/img/TelaWeb-Mobile.png" alt="Tela Web-Mobile"/>
 </h1>
 
 ## :rocket: Objetivo 
