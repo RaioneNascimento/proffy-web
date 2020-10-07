@@ -183,8 +183,10 @@ Agradeço a Rocketseat por nos mostrar que não há limite para a imaginação, 
   
 </div>
 
-**Instructors: [Diego Fernandes](https://github.com/diego3g) | [Mayk Brito](https://github.com/maykbrito)** 
+<p align=center>
+ <strong>Instrutores:</strong>
+ <a href="https://github.com/diego3g">Diego Fernandes |</a>
+ <a href="https://github.com/maykbrito">Mayk Brito</a>
+</p>
 
 `made with 💜 by raionedeveloper © 2020`
-
-
