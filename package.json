@@ -4,7 +4,7 @@
   "description": "Projeto criado na Next Level Week #2.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "start": "nodemon src/server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
