@@ -1,7 +1,7 @@
 ## proffy
 
 <div align="center">
-	<img src="../assets/img/logo.png" alt="Proffy Banner">
+	<img src="./public/images/markdown/logo.png" alt="Proffy Banner">
 </div>
 
 <div align="center">
@@ -39,77 +39,47 @@
 
 <h3 align=center>
   
-Proffy é um projeto desenvolvido na semana **Next Level Week 2.0** da **[Rocketseat][https://rocketseat.com.br]** utilizando as tecnologias **HTML, CSS, JavaScript, Node, React e React Native**.
+Proffy é um projeto desenvolvido na semana **Next Level Week 2.0** da **[Rocketseat](https://www.rocketseat.com.br)** utilizando as tecnologias **HTML, CSS, JavaScript, Node, React** e **React Native**.
 
 </h3>
 
 <h1 align=center>
-  <img src="../assets/img/TelaWeb-Mobile.png" alt="Tela Web-Mobile"/>
+  <img src="./public/images/markdown/TelaWeb-Mobile.png" alt="Tela Web-Mobile"/>
 </h1>
 
-## :rocket: Objetivo 
+## 🚀 Objetivo 
 
 <p align=justify> 
-  O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os <strong>professores</strong> (Proffys) e os <strong>alunos</strong> que desejam um professor com qualificação para dar orientações e aulas sobre determinada matéria. Solucionando então um <strong>problema de comunicação</strong> entre <strong>professores</strong> que queiram dar aulas, e <strong>alunos</strong> que desejam um professor para orientar nos <strong>estudos em diversas áreas</strong>.
+  O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os <strong>professores</strong> e os <strong>alunos</strong> que desejam ter aulas professores qualificados e com experiência em determinada matéria. Solucionando então um problema de comunicação entre <strong>professores</strong> que queiram dar aulas <strong>EAD/Presencialmente</strong>, e <strong>alunos</strong> que desejam um professor que possa orientar nos <strong>estudos em diversas áreas</strong>.
 </p>
 
 
-#### :pager: Website ([React][react] + [JavaScript][javascript])
+#### 📑 **Website** - ***HTML, CSS e JavaScript***
 
-  - **[React Router Dom][react_router_dom]**
-  - **[React Icons][react_icons]**
-  - **[Axios][axios]**
-  - **[Leaflet][leaflet]**
-  - **[React Leaflet][react_leaflet]**
-  - **[React Dropzone][react_dropzone]**
+  - **[HTML](https://www.w3schools.com/html/html_intro.asp)**
+  - **[CSS3](https://www.w3.org/Style/CSS/Overview.en.html)**
+  - **[JavaScript](https://www.javascript.com/)**
+ 
+#### 💾	 **Server** - ***(NodeJS + JavaScript)***
+  - **[SQLite](https://www.sqlite.org/index.html)**
+  - **[Express](https://expressjs.com/pt-br/)**
+  
 
-#### ***:floppy_disk:	 Server ([NodeJS][node] + [JavaScript][javascript])***
+#### 👨🏽‍💻  **Utilitários**
 
-  - **[Express][express]**
-  - **[CORS][cors]**
-  - **[KnexJS][knex]**
-  - **[SQLite][sqlite3]**
-  - **[ts-node][tsnode]**
-  - **[dotENV][dotenv]**
-
-
-#### ***:iphone: Mobile*** ([React Native][react_native] + [JavaScript][javascript])
-
-  - **[Expo][expo]**
-  - **[Expo Google Fonts][expo_google_fonts]**
-  - **[React Navigation][react_navigation]**
-  - **[Expo Constants][expo_constants]**
-  - **[React Native SVG][react_native_svg]**
-  - **[Axios][axios]**
-
-#### ***Utilitários***
-
-  - Protótipo: **[Figma](https://www.figma.com/)** &rarr; **<kbd>[Protótipo (Proffy)](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web/duplicate)</kbd>**
-  - Editor: **[Visual Studio Code][vscode]** &rarr; Extensions: **<kbd>[SQLite][vscode_sqlite_extension]</kbd>**
-  - Markdown: **[StackEdit][stackedit]**, **<kbd>[Markdown Emoji][markdown_emoji]</kbd>**
-  - Commit Conventional: **[Commitlint][commitlint]**
-  - Teste de API: **[Insomnia][insomnia]**
-  - Ícones: **[Feather Icons][feather_icons]**, **[Font Awesome][font_awesome]**
-  - Fontes: **[Archivo][font_archivo]**, **[Poopins][font_poopins]**
+  - Protótipo: **[Figma](https://www.figma.com/)** &rarr; **[Protótipo (proffy-web)](https://www.figma.com/file/TxfUYM9a1Yb55DCxGV8LLV/Proffy-Web-Copy)**
+  - Editor: **[Visual Studio Code](https://code.visualstudio.com/download)** &rarr; Extensions: **[SQLite Extension](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
+  - Fontes: **[Poppins](https://fonts.google.com/specimen/Poppins)**
 
 ### ***Configurações Iniciais***
 
-Primeiro, você precisa ter o <kbd>[NodeJS](https://nodejs.org/en/download/)</kbd> instalado na sua máquina. 
+Primeiro, você precisa ter o [NodeJS](https://nodejs.org/en/download/) instalado na sua máquina. 
 
-Se você estiver utilizando o **Linux**, você pode optar por instalar o **Node** através do gerênciador de versões <kbd>[asdf]</kbd> para facilitar o processo de mudança da versão do **Node**, quando for necessário.
+Se você estiver utilizando o **Linux** ou **MacOS**, você pode optar por instalar o **Node** através do gerênciador de versões através do [link](https://nodejs.org/en/download/package-manager/) para facilitar o processo de mudança da versão do **Node**, quando for necessário.
 
-Você pode optar também por utilizar o **yarn** no lugar do **npm**. Você pode instalar clicando nesse <kbd>[link][yarn]</kbd>, ou através do <kbd>[asdf]</kbd>.
+Você pode optar também por utilizar o **yarn** no lugar do **npm**. Você pode instalar clicando nesse [yarn](https://yarnpkg.com/), ou através do [link](https://classic.yarnpkg.com/pt-BR/docs/install/#debian-stable).
 
-Após ter o **Node** instalado, instale as dependências do **React e React Native (Expo)** de forma global, utilizando os comandos:
-
-```sh
-# React:
-$ npm install create-react-app -g
-
-# Expo (React Native):
-$ npm install -g expo-cli 
-```
-Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório (para o gerenciamento de commits), no diretório do **server**, no diretório do **website** e no diretório **mobile**. Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
+Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório (para o gerenciamento de commits), no diretório do **server** e no diretório do **website**. Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
 
 ```sh
 $ npm install
@@ -119,50 +89,29 @@ $ npm install
 $ yarn
 ```
 
-Veja os arquivos **`package.json`** do <kbd>[commitlint](./package.json)</kbd>, <kbd>[server](https://github.com/LuizCarlosVilela/nlw-2-backend/blob/master/package.json)</kbd>, <kbd>[website](https://github.com/LuizCarlosVilela/nlw-2-web/blob/master/package.json)</kbd> e <kbd>[mobile](https://github.com/LuizCarlosVilela/nlw-2-mobile/blob/master/package.json)</kbd>.
-
 ### ***Utilizando o Server***
 
 ```sh
-# Abrindo o terminal no diretório do servidor:
-$ cd ./sources/server
+# Abrindo o terminal no diretório da aplicação:
+$ cd /proffy
 
-# Executando a aplicação em modo de desenvolvimento:
-$ npm run dev
+# Executando a aplicação web:
+$ npm start
 ```
 
-### ***Utilizando o Mobile***
+## 🙏 Considerações finais
 
-Instale o aplicativo <kbd>[Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en)</kbd> no seu smartphone Android e <kbd>[Expo](https://apps.apple.com/br/app/expo-client/id982107779)</kbd>.
+Fica aqui o agradecimento ao Diego Fernandes e Mayk Brito por sempre disponibilizar materiais de qualidade da rocketseat e nos mostrar que ***o aprendizado é contínuo e sempre haverá um próximo nível***.
 
-```sh
-# Abrindo o terminal no diretório do mobile:
-$ cd ./sources/mobile
-
-# Executando o mobile no modo de desenvolvimento:
-$ npm run start
-```
-### :iphone: Dispositivos
-
-**Android** 
-Abra o aplicativo do expo e no modo **LAN** faça o scan do QRCode. 
-
-**iPhone** 
-Abra a câmera e escaneie o QRCode.
-
-## :star2: Agradecimento
-
-Agradeço a Rocketseat por nos mostrar que não há limite para a imaginação, por sempre incentivar os novos desenvolvedores e nos proporcionar o conhecimento para que possamos enfrentar novos desafios.
-
-<div align=center>
+<div align="center">
 
   <table style="width:100%">
-    <tr align=center>
+    <tr align="center">
       <th><strong>Rocketseat</strong></th>
       <th><strong>diego3g</strong></th>
       <th><strong>maykbrito</strong></th>
     </tr>
-    <tr align=center>
+    <tr align="center">
       <td>
         <a href="https://rocketseat.com.br/">
           <img width="200" height="180" src="https://user-images.githubusercontent.com/38081852/83981650-1e2e6680-a8f6-11ea-9f42-6df8fe809e4b.png">
@@ -183,6 +132,35 @@ Agradeço a Rocketseat por nos mostrar que não há limite para a imaginação, 
 
 </div>
 
-**Instructors: [Diego Fernandes](https://github.com/diego3g) | [Mayk Brito](https://github.com/maykbrito)** 
+<p align=center>
+  <strong>Instrutores:</strong>
+  <a href="https://github.com/diego3g" target="_blank">Diego Fernandes |</a>
+  <a href="https://github.com/maykbrito" target="_blank">Mayk Brito</a>
+</p>
 
 `made with 💜 by raionedeveloper © 2020`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
