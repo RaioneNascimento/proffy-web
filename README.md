@@ -139,28 +139,3 @@ Fica aqui o agradecimento ao Diego Fernandes e Mayk Brito por sempre disponibili
 </p>
 
 `made with 💜 by raionedeveloper © 2020`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
